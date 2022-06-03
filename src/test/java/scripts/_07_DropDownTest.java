@@ -1,15 +1,9 @@
 package scripts;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.ExpediaPage;
 import utilities.DropDownHandler;
 import utilities.Waiter;
-
-import java.util.List;
 
 public class _07_DropDownTest extends Base {
     /*
