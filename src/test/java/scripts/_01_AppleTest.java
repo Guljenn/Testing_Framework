@@ -54,6 +54,7 @@ public class _01_AppleTest {
     // 3. Teardown actions - after each test
     @AfterMethod
     public void teardown(){
+
         Driver.quitDriver();
     }
 

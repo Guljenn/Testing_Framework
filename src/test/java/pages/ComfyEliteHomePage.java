@@ -5,17 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class RediffHomePage {
+public class ComfyEliteHomePage {
 
-    public RediffHomePage(WebDriver driver){
+    public ComfyEliteHomePage(WebDriver driver){
         PageFactory.initElements(driver, this);
-
     }
 
-    @FindBy(css = "div[class='cellone']")
-    public WebElement iFrame1;
+    @FindBy(css = "a[aria-label='Facebook Social Link']")
+    public WebElement facebookIcon;
 
-    @FindBy(css = "div[class='celltwo']")
-    public WebElement iFrame2;
 
 }

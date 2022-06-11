@@ -26,6 +26,10 @@ public class Base {
     FaceBookPage faceBookPage;
     ExpediaPage expediaPage;
     EbayPage ebayPage;
+    AmazonPage amazonPage;
+    RediffHomePage rediffHomePage;
+    TGHomePage tgHomePage;
+    ComfyEliteHomePage comfyEliteHomePage;
 
 
 
@@ -43,6 +47,12 @@ public class Base {
         faceBookPage = new FaceBookPage(driver);
         expediaPage = new ExpediaPage(driver);
         ebayPage = new EbayPage(driver);
+        amazonPage = new AmazonPage(driver);
+        rediffHomePage = new RediffHomePage(driver);
+        tgHomePage = new TGHomePage(driver);
+        comfyEliteHomePage = new ComfyEliteHomePage(driver);
+
+
 
     }
 
